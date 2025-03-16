@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  background-image: url("../img/container_bg.png"); /* Ruta de la imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+nav {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    background-color: rgb(230, 27, 27) !important;
+  
+    a {
+      color: white;
+    }
+  }
+  
+footer {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    background: rgb(212, 9, 2);
+    color: white;
+  }
