@@ -15,46 +15,79 @@
 <body>
     <header>
         <section>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand text-light" href="./index.html">PokeDex</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Elementos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-danger" href="#">elemento1</a></li>
-                                <li><a class="dropdown-item text-danger" href="#">elemento2</a></li>
-                                <li><a class="dropdown-item text-danger" href="#">elemento3</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre Nosotros</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-light" type="submit">Buscar</button>
-                    </form>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand text-light" href="./index.html">PokeDex</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Elementos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-danger" href="#">elemento1</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">elemento2</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">elemento3</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre Nosotros</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!-- carrousel de imagenes -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/ImagenBanner1.png" class="d-block w-100 imgCarrousel" alt="pikachu">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ImagenBanner2.png" class="d-block w-100 imgCarrousel" alt="pikachu">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ImagenBanner3.png" class="d-blockgit imgCarrousel" alt="pikachu">
                 </div>
             </div>
-        </nav>
-    </section>
-    </header>
-    <main></main>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
     <footer class="text-center py-4">
         <p>&copy; Todos los Derechos Reservados</p>
     </footer>

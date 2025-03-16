@@ -30,3 +30,10 @@ footer {
   background: rgb(212, 9, 2);
   color: white;
 }
+
+.imgCarrousel{
+    object-fit: cover;
+    width: 375px;
+    height: 136px;
+
+}
