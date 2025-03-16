@@ -33,7 +33,25 @@ footer {
 
 .imgCarrousel{
     object-fit: cover;
-    width: 375px;
-    height: 136px;
+    height: 260px;
+}
 
+
+/* ===============
+MEDIAS QUERIES
+=============== */
+/* para modificar las imagenes del carousel, las card y eror 404 para md y lg */
+/* medianos */
+@media (min-width: 768px) and (max-width:991px){
+    .imgCarrousel{
+        height: 320px;
+    } 
+ 
+}
+/* grandes */
+@media (min-width:992px){
+    .imgCarrousel{
+        height: 400px;
+    }
+ 
 }
