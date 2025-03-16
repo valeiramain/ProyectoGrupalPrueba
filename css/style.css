@@ -15,18 +15,18 @@ main {
 }
 
 nav {
-    font-family: "Exo 2", sans-serif;
-    font-weight: 700;
-    background-color: rgb(230, 27, 27) !important;
-  
-    a {
-      color: white;
-    }
-  }
-  
-footer {
-    font-family: "Exo 2", sans-serif;
-    font-weight: 700;
-    background: rgb(212, 9, 2);
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  background-color: rgb(230, 27, 27);
+
+  a {
     color: white;
   }
+}
+
+footer {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  background: rgb(212, 9, 2);
+  color: white;
+}
